@@ -15,6 +15,8 @@
 		CFA504241BBC549D00CDA342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA504221BBC549D00CDA342 /* LaunchScreen.storyboard */; };
 		CFA5042F1BBC549D00CDA342 /* RealEstateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5042E1BBC549D00CDA342 /* RealEstateTests.m */; };
 		CFA5043A1BBC549D00CDA342 /* RealEstateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA504391BBC549D00CDA342 /* RealEstateUITests.m */; };
+		CFA504481BBC552900CDA342 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA504471BBC552900CDA342 /* CoreLocation.framework */; };
+		CFA5044A1BBC552F00CDA342 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA504491BBC552F00CDA342 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CFA504351BBC549D00CDA342 /* RealEstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA504391BBC549D00CDA342 /* RealEstateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealEstateUITests.m; sourceTree = "<group>"; };
 		CFA5043B1BBC549D00CDA342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA504471BBC552900CDA342 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CFA504491BBC552F00CDA342 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA5044A1BBC552F00CDA342 /* MapKit.framework in Frameworks */,
+				CFA504481BBC552900CDA342 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +123,8 @@
 		CFA504141BBC549D00CDA342 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFA504491BBC552F00CDA342 /* MapKit.framework */,
+				CFA504471BBC552900CDA342 /* CoreLocation.framework */,
 				CFA504151BBC549D00CDA342 /* main.m */,
 			);
 			name = "Supporting Files";

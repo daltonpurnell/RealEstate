@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@import CoreLocation;
+@import MapKit;
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
+{
+    
+    CLLocationManager *locationManager;
+    CLPlacemark *placemark;
+    CLGeocoder *geocoder;
+
+}
+
 
 
 @end
